@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  guc-ical:
+    build: ./
+    restart: always
+    ports:
+      - "9001:80"
+    #environment:
+    #  - FEED_REGION=AU
+    #  - TIMEZONE=Australia/Perth
+    #volumes:
+    #  - ./guc-ical.php:/var/www/html/index.php

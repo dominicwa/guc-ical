@@ -1,0 +1,11 @@
+{
+	"require": {
+		"imangazaliev/didom": "1.18",
+		"kigkonsult/icalcreator": "2.39.2"
+	},
+	"config": {
+		"platform" : {
+			"php": "7.4.6"
+		}
+	}
+}
