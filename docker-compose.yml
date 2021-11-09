@@ -3,8 +3,12 @@ version: '3'
 services:
 
   guc-ical:
-    image: dm/guc-ical:latest
+    build: ./
     restart: always
+    ports:
+      - 8000:80
+    volumes:
+      - ./guc-ical.php:/var/www/html/index.php
     environment:
       - 'CONTAINER_TIMEZONE=Australia/Perth'
       - 'APACHE_SERVER_NAME=localhost'
@@ -17,8 +21,3 @@ services:
     cap_add:
       - SYS_TIME
       - SYS_NICE
-
-networks: 
-  default: 
-    external: 
-      name: dm-docker-host
