@@ -8,7 +8,7 @@ services:
     ports:
       - 8000:80
     volumes:
-      - ./guc-ical.php:/var/www/html/index.php
+      - ./guc-ical.php:/app/public/index.php
     environment:
       - 'CONTAINER_TIMEZONE=Australia/Perth'
       - 'APACHE_SERVER_NAME=localhost'
