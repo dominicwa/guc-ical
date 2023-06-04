@@ -1,6 +1,7 @@
 # GUC-iCal
 
-:exclamation: GUC-iCal is not currently working or maintained. IMDb keeps changing their data formatting breaking the scrape.
+> **Note**
+> GUC-iCal is not currently working or maintained. IMDb keeps changing their data formatting breaking the scrape.
 
 GUC-iCal is a PHP script that converts cinema release data (published by [IMDb](https://www.imdb.com/calendar)) into an iCal feed for use in calendar software. Using it, you can keep an eye on upcoming movie releases in your region.
 
